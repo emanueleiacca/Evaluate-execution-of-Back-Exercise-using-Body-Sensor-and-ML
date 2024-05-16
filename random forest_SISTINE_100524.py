@@ -25,7 +25,7 @@ subjects=df_Sistine["Sub"]
 # print("Accuracy:", accuracy)
 
 # Definisci il modello
-model = RandomForestClassifier(n_estimators=6000)
+model = RandomForestClassifier(n_estimators=30)
 # Inizializza l'oggetto Leave-One-Group-Out Cross-Validation (LOGOCV)
 logo = LeaveOneGroupOut()
 # Inizializza una lista per memorizzare i punteggi di accuratezza
