@@ -1,4 +1,4 @@
-# Evaluate execution of Back Exercise using Body Sensor and ML
+# Evaluate execution of Back Exercise using Body Sensor and Machine Learning
 
 ## Project Overview
 
@@ -18,8 +18,12 @@ The classifier will be particularly tested on the performance of an older man to
 
 ## Machine Learning Workflow
 
-Data Preprocessing: Not needed because the data provided were already transformed
-Feature Engineering: Also not needed, the original dataset was ready to use, also since we had too many variable a Lasso Feature Selection was already applied, bringing the number of columns to a reasonable number.
+`Data Preprocessing:` Not needed because the data provided were already transformed
+
+`Feature Engineering:` Also not needed, the original dataset was ready to use, also since we had too many
+variables a Lasso Feature Selection was already applied, bringing the number of columns to a reasonable number.
 Model Selection: Exploring various classification algorithms, starting by Boosting model (including hyperparameters optimization), we overestimated the problem. In the end a Random Forest model was enough and we earned in interpretability.
-Model Training and Validation: Employing techniques like cross-validation and Optuna to train and fine-tune the models, ensuring they generalize well on unseen data.
-Evaluation: Accurancy
+
+`Model Training and Validation:` Employing techniques like cross-validation and Optuna to train and fine-tune the models, ensuring they generalize well on unseen data.
+
+`Evaluation:` Accurancy
